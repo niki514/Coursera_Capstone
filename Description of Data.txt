@@ -1,0 +1,7 @@
+﻿The data used is provided by the Seattle Police Department and Traffic Records (2004-present).  It includes information about vehicle collisions in Seattle such as location, severity, time, and cause of incident.  This data can be used to determine the types of areas that are most likely to be the site of a severe accident.  
+
+
+For example, one column in the data set is labeled ADDRTYPE, and it tells whether a given incident occurred at an alley, block, or intersection.  The frequency of each type can be used to determine whether there is a correlation between type of location and number of collisions.  Additionally, ADDRTYPE can be mapped against the SEVERITYCODE, which labels the severity of the collision as an integer between 0 and 3, inclusive.  Correlations between these two variables can further clarify whether cameras are necessary in a given area.  For example, if it appears that intersections have the greatest number of collisions, but a majority of them have a SEVERITYCODE of zero, the Seattle Police Department may not actually need to prioritize intersections for camera placement.
+
+
+Additionally, the data includes geographic coordinates for the accident in the columns X and Y.  These can be used to map collisions onto neighborhoods in Seattle.  However, it must be noted that these locations should be grouped by their SEVERITYCODE in order to avoid the mistake of confusing a high number of non-threatening collisions with a dangerous area.
